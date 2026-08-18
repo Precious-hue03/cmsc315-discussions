@@ -40,6 +40,6 @@ if __name__ == "__main__":
     n2 = Novel("The Hobbit", "J.R.R. Tolkien", 310)
     n2.display_info()
 
-    Novel.store_name = "Readers Bookstore"
+    Novel.store_name = "Random Bookstore"
     n.display_info()
     n2.display_info()
