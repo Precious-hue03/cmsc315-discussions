@@ -20,11 +20,9 @@ class Novel(Book):
         self.categories.append(category)
 
     def display_info(self):
-        categories_string = ", ".join(self.categories)
-
         print(f"Title: {self.title}, Author: {self.author},"
               f" Pages: {self.page_count}, Store: {self.store_name},"
-              f" Categories: [{categories_string}]")
+              f" Categories: {self.categories}")
 
 
 # --- Demonstration code ---
