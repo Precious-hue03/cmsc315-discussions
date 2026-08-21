@@ -1,29 +1,27 @@
-# Unit 2 Discussion: Stacks and Queues
+# Unit 1 Discussion: Python OOP, Namespaces, and Copying
 
 ## Overview
 
-This assignment explores two fundamental linear data structures:
-
-- Stack (LIFO)
-- Queue (FIFO)
+This assignment explores object-oriented programming (OOP) concepts in Python, including inheritance, namespaces, and object copying.
 
 ## Learning Objectives
 
-- Implement stack operations
-- Implement queue operations
-- Understand LIFO and FIFO behavior
-- Create edge cases
+- Create parent and child classes
+- Use inheritance to extend functionality
+- Understand class and instance namespaces
+- Demonstrate shallow and deep copying
+- Apply object-oriented design principles
 
 ## Requirements
 
-Complete all TODO sections:
+Complete all TODO sections in the source code:
 
-1. Implement stack operations.
-2. Implement queue operations.
-3. Demonstrate LIFO behavior.
-4. Demonstrate FIFO behavior.
-5. Create and test edge cases.
-6. Create a real-world scenario.
+1. Create a parent class.
+2. Create a child class using inheritance.
+3. Demonstrate class and instance namespaces.
+4. Demonstrate shallow and deep copying.
+5. Create and test objects in `main()`.
+6. Add a student-created extension.
 
 ## Discussion Board Reflection
 
@@ -33,12 +31,6 @@ Your reflection should be approximately 150–200 words and address the followin
 
 1. What concepts or skills did you learn while completing this assignment?
 2. What challenges did you encounter, and how did you overcome them?
-3. Explain the differences between stacks and queues as this relates to real-world applications.
+3. Compare OOP to procedural programming.
+4. Discuss the benefits of maintainability and reusability and apply this managing overhead, practical application development, and future use.
 
-What I learned while completing this assignment is knowing how to implement stacks and queue in code.
-The challenge I encountered was figuring out how to return the front value in queue without removing it.
-The difference between stack and queue is that they both organize items differently.
-A queue use FIFO because you can make it so the first item added is the first one removed.
-In a library returned books are waiting to be put back on shelves.
-The first book returned or waiting in the queue can be the first one shelved, which is a real-world example.
-The stack uses LIFO because the last item added to the stack is the first one removed.
