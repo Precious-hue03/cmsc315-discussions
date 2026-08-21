@@ -147,11 +147,6 @@ def main():
     print("Removes the only book: ", one_book.pop())
     print("The stack is now empty: ", one_book.is_empty())
 
-    #print("TODO: Create a Stack object, demonstrate LIFO behavior,")
-    #print("      test popping from an empty stack,")
-    #print("      test peeking at an empty stack,")
-    #print("      and verify a single-item stack becomes empty after removal.")
-
     # ===============================
     # TODO (Student): QUEUE DEMO
     # ===============================
