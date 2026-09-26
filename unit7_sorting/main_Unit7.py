@@ -137,7 +137,7 @@ def main():
     # 5. Clearly label and display all results.
 
     print("\n=== DATASET #1 Clothing Store ===")
-    #Unsorted prices of products at a grocery store.
+    #Unsorted prices of products at a clothing store.
     clothing_prices = [45, 20, 90, 15, 32, 29, 75]
 
     #Display the orginal prices and sort them
